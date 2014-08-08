@@ -6,7 +6,7 @@ EOF
 
 
 download(){
-  url="https://github.com/USTCLab312"
+  url="https://github.com/dampeUSTC"
   for dir in $@;do
     git clone "$url/DMPSW$dir" $dir
   done
